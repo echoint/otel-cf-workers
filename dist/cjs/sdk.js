@@ -21,7 +21,7 @@ const cache_js_1 = require("./instrumentation/cache.js");
 const queue_js_1 = require("./instrumentation/queue.js");
 const do_js_1 = require("./instrumentation/do.js");
 const scheduled_js_1 = require("./instrumentation/scheduled.js");
-const versions = require("../versions.json");
+const versions = require("./versions.json");
 function isRequest(trigger) {
     return trigger instanceof Request;
 }

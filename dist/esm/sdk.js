@@ -13,7 +13,7 @@ import { instrumentGlobalCache } from './instrumentation/cache.js';
 import { createQueueHandler } from './instrumentation/queue.js';
 import { instrumentDOClass } from './instrumentation/do.js';
 import { createScheduledHandler } from './instrumentation/scheduled.js';
-import * as versions from '../versions.json';
+import * as versions from './versions.json';
 export function isRequest(trigger) {
     return trigger instanceof Request;
 }
