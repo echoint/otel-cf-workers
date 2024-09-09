@@ -29,7 +29,7 @@ import { instrumentGlobalCache } from './instrumentation/cache.js'
 import { createQueueHandler } from './instrumentation/queue.js'
 import { DOClass, instrumentDOClass } from './instrumentation/do.js'
 import { createScheduledHandler } from './instrumentation/scheduled.js'
-import * as versions from '../versions.json'
+import * as versions from './versions.json'
 
 type FetchHandler = ExportedHandlerFetchHandler<unknown, unknown>
 type ScheduledHandler = ExportedHandlerScheduledHandler<unknown>
